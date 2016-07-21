@@ -1,0 +1,21 @@
+{
+  "name": "playground",
+  "homepage": "https://github.com/HaLenB/playground",
+  "authors": [
+    "Lenny Halley <lenny.halley@bitwip.fr>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "filepicker-js-bower": "filepicker-js#^2.4.14"
+  }
+}
