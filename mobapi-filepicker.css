@@ -15,9 +15,9 @@ body {
   font-family:'Cabin Sketch';
 }
 
-.fp__header__title {
+/*.fp__header__title {
   font-size:18px;
-}
+}*/
 
 .content__box,
 .content__header,
@@ -30,7 +30,7 @@ body {
 
 .fp__action-bar,
 .fp__header {
-  background-color:#616780;
+  background-color:#504657;
 }
 
 .sidebar__group li a,
@@ -38,43 +38,76 @@ body {
   color:#647F8D;
 }
 
-.content__header__title h2,
+/*.content__header__title h2,
 .fp__drag-and-drop .label__heading,
 .small,
 .text--tall {
   color:#70648D;
-}
+}*/
 
 .fp__action-bar__copy a,
 .fp__header__title {
   color:#B0BAC7;
 }
-.btn {
-  /*border-radius:10px;
+
+/*.btn {
+  border-radius:10px;
   -webkit-border-radius:10px;
   -moz-border-radius:10px;
-  box-shadow:inset 0 2px 0 rgba(0,0,0,.05);*/
+  box-shadow:inset 0 2px 0 rgba(0,0,0,.05);
+}
+
+.btn--primary {
+  background-color:#CE6767;
+  border-color:#CE6767;
+}
+
+.btn--primary:hover {
+  background-color:#B14646;
+  border-color:#B14646;
+}*/
+
+.sidebar-icon,
+span.custom-provider {
+  display:none;
+}
+
+/*MOBAPI STYLE*/
+.fp__header__title {
+  font-size:20px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+.btn {
   border: 3px solid transparent;
   border-radius: 0;
 }
 
 .btn--primary {
-  /*background-color:#CE6767;
-  border-color:#CE6767;*/
   color: #fff;
   background-color: #14CC71;
   border-color: #14CC71;
 }
 
 .btn--primary:hover {
-  /*background-color:#B14646;
-  border-color:#B14646;*/
-  color: #14CC71;
+  color: #14CC71!important;
   background-color: transparent;
   border-color: #14CC71;
 }
 
-.sidebar-icon,
-span.custom-provider {
-  display:none;
+.sidebar__group li.active, .sidebar__group li a:hover, .sidebar__upload li.active, .sidebar__upload li a:hover {
+  background: #EEEEEE;
+}
+
+.fp__sidebar {
+  border-right-color: #E6E6E6;
+}
+
+.content__box, .content__header, .fp__content, .fp__drag-and-drop, .fp__flex, .fp__sidebar {
+  background-color: #FFF;
+}
+
+.content__header__title h2, .fp__drag-and-drop .label__heading, .small, .text--tall {
+    color: #2C2C2C;
 }
