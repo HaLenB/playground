@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Cabin+Sketch);
 
-.btn,
+/*.btn,
 .content__header__title h2,
 .form__group label,
 .fp__alert,
@@ -13,7 +13,7 @@
 .text--tall,
 body {
   font-family:'Cabin Sketch';
-}
+}*/
 
 /*.fp__header__title {
   font-size:18px;
@@ -73,6 +73,21 @@ span.custom-provider {
 }
 
 /*MOBAPI STYLE*/
+
+.btn,.content__header__title h2,
+.form__group label,
+.fp__alert,
+.fp__bread-crumb,
+.fp__header__title,
+.list__thumbnail .file__title,
+.sidebar__group li a,
+.sidebar__upload li a,
+.text--normal,
+.text--tall,
+body {
+  font-family: Arial, sans-serif;
+}
+
 .fp__header__title {
   font-size:20px;
   color: #FFFFFF;
@@ -80,6 +95,32 @@ span.custom-provider {
 }
 
 .btn {
+    display: inline-block;
+    padding: 6px 12px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-size: 14px;
+    font-weight: normal;
+    letter-spacing: 0.01em;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-font-feature-settings: "kern" 1;
+    -moz-font-feature-settings: "kern" 1;
+    margin-bottom: 0;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none !important;
+    text-shadow: none;
+    line-height: 21px;
+    padding-left: 17px;
+    padding-right: 17px;
+    position: relative;
+    transition: color 0.1s linear 0s, background-color 0.1s linear 0s, opacity 0.2s linear 0s !important;
+
   border: 3px solid transparent;
   border-radius: 0;
 }
@@ -109,5 +150,6 @@ span.custom-provider {
 }
 
 .content__header__title h2, .fp__drag-and-drop .label__heading, .small, .text--tall {
-    color: #2C2C2C;
+    color: #777777;
 }
+
