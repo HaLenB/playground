@@ -85,8 +85,17 @@ span.custom-provider {
 .text--normal,
 .text--tall,
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Segoe UI", Arial, sans-serif;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 10px 0;
+  font-family: "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 .fp__header__title {
   font-size:20px;
