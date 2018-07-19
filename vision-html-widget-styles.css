@@ -1,0 +1,22 @@
+.mi-custohtml {
+  background-color: #89C03E;
+}
+
+.mi-custom-html > h4 {
+    padding: 0.5em;
+}
+
+.mi-custom-html > h4 > span {
+    display: inline-block;
+    border: 2px solid #F04D59;
+    padding: 0.5em;
+}
+
+.mi-custom-html > p {
+    font-size: 1.2em;
+    padding-bottom: 1em;
+    text-transform: lowercase;
+    font-variant: small-caps;
+    font-weight: bold;
+    color: white;
+}
